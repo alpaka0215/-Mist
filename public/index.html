@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="referrer" content="no-referrer">
+  <meta name="theme-color" content="#EEF1F5" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#16191F" media="(prefers-color-scheme: dark)">
+  <title>MIST</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header class="top">
+    <div class="top-inner">
+      <a class="mark" href="#/r/free" aria-label="MIST 홈">MIST</a>
+      <nav class="tabs" aria-label="로">
+        <a href="#/r/free" data-tab="free">자유로</a>
+        <a href="#/r/notice" data-tab="notice">공지로</a>
+        <a href="#/hot" data-tab="hot">인기로</a>
+        <a href="#/user" data-tab="user">유저로</a>
+      </nav>
+    </div>
+  </header>
+  <main id="app" class="sheet" tabindex="-1"></main>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="/app.js"></script>
+</body>
+</html>
